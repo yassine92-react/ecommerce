@@ -1,0 +1,96 @@
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .trigger:hover {
+    color: #1890ff;
+  }
+  
+  .logo {
+    height: 50px;
+    width: 50px;
+    background-image: url("https://www.gomycode.tn/images/logo-GMC-Black.png");
+    /* background: rgba(255, 255, 255, 0.2); */
+    margin: 16px;
+  }#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+
+  .card{display:flex;}
+
+  .pannier{display:flex;}
+table{
+  width: 100%;
+}
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
+
+  .flesh{
+    background-color: #B0B0B0;
+    margin-top: 36px;
+
+
+  }
+  .checkbox{
+    margin-top:20px;
+  }
+  .checkboxsec{
+    padding-top:10px;
+  }
+  .title-steps
+  {
+    height: 59px;
+    font-family: OpenSans;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: center;
+    color: #324851;
+  }
+  .title-two-steps{
+    height: 79px;
+    font-family: OpenSans;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.55;
+    letter-spacing: normal;
+    text-align: center;
+    color: #324851;
+  }
+  .stepsbloc{
+    margin-left: 44px;
+    margin-right: 111px;
+    justify-content: space-between;
+  }
+  .ant-steps-item-title{
+    width: 177px !important;
+
+  }
+  .ant-steps-item-description{
+    width: 198px !important;
+  }
+  /* .ant-steps-item-icon{
+    margin-left: 100px !important;
+
+  } */
+  .ant-steps-item-content{
+    margin-left: -35px;
+
+  }
